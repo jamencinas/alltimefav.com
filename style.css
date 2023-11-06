@@ -1,0 +1,176 @@
+.pic {
+ background-image: url("https://c4.wallpaperflare.com/wallpaper/373/952/839/wooden-spoon-condiments-background-wallpaper-preview.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-attachment: scroll;
+background-color: #FBEAE8;
+padding-bottom: 15px;
+padding-top: 15px;
+}
+
+img{
+	border-radius: 50%;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	border: 5px solid #FFF8EC;
+}
+
+h1{	
+	text-align: center;
+	font-weight: bolder;
+	font-family: cursive ;
+	color: #FFF8EC;
+	font-size: 35px;
+	margin-top: -7px;
+	padding-top: 30px;
+
+}
+
+button {
+ position: relative;
+ margin: 5px;
+ padding: 20px 40px;
+ transition: all 0.2s ease;
+ border: none;
+ background: none;
+}
+
+button:before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ display: block;
+ border-radius: 50px;
+ background: ;
+ width: 100px;
+ height: 50px;
+ transition: all 0.3s ease;
+}
+
+button span {
+ position: relative;
+ font-family: "Ubuntu", sans-serif;
+ font-size: 20px;
+ font-weight: 900;
+ letter-spacing: 0.05em;
+ color: #234567;
+}
+
+button svg {
+ position: relative;
+ top: 0;
+ margin-left: 10px;
+ fill: none;
+ stroke-linecap: round;
+ stroke-linejoin: round;
+ stroke: #234567;
+ stroke-width: 2;
+ transform: translateX(-5px);
+ transition: all 0.3s ease;
+}
+
+button:hover:before {
+ width: 100%;
+ background: #f1916d;
+}
+
+button:hover svg {
+ transform: translateX(0);
+}
+
+button:active {
+ transform: scale(0.95);
+}
+
+/*a:hover{
+	color: #5C0000;
+	size: 19px; */
+}
+
+
+li{
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-size: 15px;
+}
+
+dd{
+	font-family: sans-serif;
+	font-style: italic;
+	font-size: 15px;
+}
+
+p{
+	font-family: Arial;
+	font-size: 15px;
+}
+
+input {
+ padding: 15px 25px;
+ border: unset;
+ border-radius: 15px;
+ color: #212121;
+ z-index: 1;
+ background: #e8e8e8;
+ position: relative;
+ font-weight: 1000;
+ font-size: 17px;
+ -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ transition: all 250ms;
+ overflow: hidden;
+}
+
+input::before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ height: 100%;
+ width: 0;
+ border-radius: 15px;
+ background-color: #212121;
+ z-index: -1;
+ -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ transition: all 250ms
+}
+
+input:hover {
+ color: #3A001E;
+}
+
+input:hover::before {
+ width: 100%;
+}
+
+.p {
+	font-weight: 900;
+}	
+
+img.c{
+	border-radius: 100%;
+}
+
+.c{
+  float: left;
+  width: 40%;
+  padding: 5px;
+  padding: 20px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
